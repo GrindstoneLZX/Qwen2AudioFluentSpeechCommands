@@ -1,9 +1,0 @@
-valid set evaluation completed.
-Accuracy: 0.9846
-WER: 0.0064
-Save output to valid_results.jsonl
-
-test set evaluation completed.
-Accuracy: 0.9963
-WER: 0.0016
-Save output to test_results.jsonl

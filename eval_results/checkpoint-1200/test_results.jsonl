@@ -1729,7 +1729,7 @@
 {"pred": "Deactivate the music", "ref": "Deactivate the music"}
 {"pred": "Deactivate the music", "ref": "Deactivate the music"}
 {"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Activate the music", "ref": "Bring the newspaper"}
+{"pred": "Change language to Korean", "ref": "Bring the newspaper"}
 {"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
 {"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
 {"pred": "Bring the newspaper", "ref": "Bring the newspaper"}

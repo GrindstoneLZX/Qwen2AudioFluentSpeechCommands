@@ -1,3 +1,4 @@
+import os
 import re
 import torch
 from datasets import load_dataset
@@ -14,6 +15,7 @@ import soundfile as sf
 from tqdm import tqdm
 import json
 from jiwer import wer
+from key_word_accuracy import KeyWordAccuracy
 
 def extract_assistant_text(generated_text: str) -> str:
     match = re.search(r"\nassistant\n\s*(.*)", generated_text, re.DOTALL | re.IGNORECASE)
@@ -49,10 +51,10 @@ def generate(model, processor, audio_paths, system_prompt):
         padding="longest",
     ).to(model.device)
 
-    with torch.no_grad():
+    with torch.inference_mode():
         generated_ids = model.generate(
             **full_inputs,
-            max_new_tokens=128,
+            max_new_tokens=64,
             temperature=0.3,
             do_sample=True,
             top_p=0.9,
@@ -65,9 +67,9 @@ def generate(model, processor, audio_paths, system_prompt):
     return assistent_text
 
 
-def evaluate(model, processor, dataset, system_prompt=None, batch_size=8, split_name="test"):
+def evaluate(model, processor, dataset, system_prompt=None, batch_size=8, out_dir="", split_name="test"):
     predictions, references = [], []
-
+    keyword_accuracy = KeyWordAccuracy()
     for i in tqdm(range(0, len(dataset), batch_size), desc=f"Evaluating {split_name} set"):
         batch = dataset[i : i + batch_size]
         audio_paths = batch["audio"]
@@ -82,21 +84,32 @@ def evaluate(model, processor, dataset, system_prompt=None, batch_size=8, split_
         predictions.extend(pred_texts)
         references.extend(ref_texts)
 
+    keyword_accuracy.update(predictions, references)
+    kw_acc = keyword_accuracy.compute()
     exact_match = sum(p.lower() == r.lower() for p, r in zip(predictions, references))
     acc = exact_match / len(predictions)
     wer_score = wer(references, predictions)
 
     print(f"\n{split_name} set evaluation completed.")
+    print(f"Number of samples: {len(predictions)}")
     print(f"Accuracy: {acc:.4f}")
     print(f"WER: {wer_score:.4f}")
+    print(f"Keyword Accuracy: {kw_acc:.4f}")
 
-    out_file = f"{split_name}_results.jsonl"
+    os.makedirs(out_dir, exist_ok=True)
+    out_file = os.path.join(out_dir, f"{split_name}_results.jsonl")
     with open(out_file, "w", encoding="utf-8") as f:
         for p, r in zip(predictions, references):
             f.write(json.dumps({"pred": p, "ref": r}, ensure_ascii=False) + "\n")
     print(f"Save output to {out_file}")
 
-    return {"acc": acc, "wer": wer_score}
+    out_metric_file = os.path.join(out_dir, f"{split_name}_metrics.txt")
+    with open(out_metric_file, "w", encoding="utf-8") as f:
+        f.write(f"Number of samples: {len(predictions)}\n")
+        f.write(f"Accuracy: {acc:.4f}\n")
+        f.write(f"WER: {wer_score:.4f}\n")
+        f.write(f"Keyword Accuracy: {kw_acc:.4f}\n")
+    print(f"Save metrics to {out_metric_file}")
 
 def main():
     model_name = "Qwen/Qwen2-Audio-7B-Instruct"
@@ -125,8 +138,9 @@ def main():
     model = PeftModel.from_pretrained(model, model_dir)
     model.eval()
 
-    evaluate(model, processor, eval_dataset, batch_size=8, split_name="valid")
-    evaluate(model, processor, test_dataset, batch_size=8, split_name="test")
+    batch_size = 32
+    evaluate(model, processor, eval_dataset, batch_size=batch_size, out_dir="eval_results/checkpoint-1200", split_name="valid")
+    evaluate(model, processor, test_dataset, batch_size=batch_size, out_dir="eval_results/checkpoint-1200", split_name="test")
 
 
 if __name__ == "__main__":

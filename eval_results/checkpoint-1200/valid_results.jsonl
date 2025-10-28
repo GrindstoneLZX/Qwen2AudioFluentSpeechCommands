@@ -132,7 +132,7 @@
 {"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
 {"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
 {"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
 {"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
 {"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
 {"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
@@ -986,7 +986,7 @@
 {"pred": "Increase the volume", "ref": "Increase the volume"}
 {"pred": "Increase the volume", "ref": "Increase the volume"}
 {"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Increase the heat in the washroom", "ref": "Decrease the volume"}
+{"pred": "Increase the volume", "ref": "Decrease the volume"}
 {"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
@@ -1283,7 +1283,7 @@
 {"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
 {"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
 {"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Change language to Korean", "ref": "Activate the lights in the bedroom."}
+{"pred": "Increase the volume", "ref": "Activate the lights in the bedroom."}
 {"pred": "Activate the lights", "ref": "Activate the lights"}
 {"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
 {"pred": "Change language", "ref": "Change language"}
@@ -1481,7 +1481,7 @@
 {"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
 {"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
 {"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Deactivate the lamp", "ref": "Activate the lights"}
+{"pred": "Increase the heat in the washroom", "ref": "Activate the lights"}
 {"pred": "Change language", "ref": "Change language"}
 {"pred": "Deactivate the music", "ref": "Deactivate the music"}
 {"pred": "Activate the music", "ref": "Activate the music"}
@@ -1629,7 +1629,7 @@
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
@@ -1655,7 +1655,7 @@
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
@@ -1792,7 +1792,7 @@
 {"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
 {"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
 {"pred": "Activate the lights in the bedroom.", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the bedroom"}
 {"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
 {"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
 {"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
@@ -1905,7 +1905,7 @@
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
 {"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the washroom"}
 {"pred": "Deactivate the music", "ref": "Deactivate the music"}
 {"pred": "Deactivate the music", "ref": "Deactivate the music"}
 {"pred": "Deactivate the music", "ref": "Deactivate the music"}
@@ -2262,251 +2262,6 @@
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
-{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
-{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
-{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
-{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
-{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
-{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
-{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
-{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
-{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
-{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
-{"pred": "Bring the juice", "ref": "Bring the juice"}
-{"pred": "Bring the juice", "ref": "Bring the juice"}
-{"pred": "Bring the juice", "ref": "Bring the juice"}
-{"pred": "Bring the juice", "ref": "Bring the juice"}
-{"pred": "Bring the juice", "ref": "Bring the juice"}
-{"pred": "Bring the socks", "ref": "Bring the socks"}
-{"pred": "Bring the socks", "ref": "Bring the socks"}
-{"pred": "Bring the socks", "ref": "Bring the socks"}
-{"pred": "Bring the socks", "ref": "Bring the socks"}
-{"pred": "Bring the socks", "ref": "Bring the socks"}
-{"pred": "Bring the socks", "ref": "Bring the socks"}
-{"pred": "Bring the shoes", "ref": "Bring the shoes"}
-{"pred": "Bring the shoes", "ref": "Bring the shoes"}
-{"pred": "Bring the shoes", "ref": "Bring the shoes"}
-{"pred": "Bring the shoes", "ref": "Bring the shoes"}
-{"pred": "Bring the shoes", "ref": "Bring the shoes"}
-{"pred": "Bring the shoes", "ref": "Bring the shoes"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
-{"pred": "Change language to German", "ref": "Change language to German"}
-{"pred": "Change language to Korean", "ref": "Change language to Korean"}
-{"pred": "Change language to English", "ref": "Change language to English"}
-{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
-{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
-{"pred": "Change language to German", "ref": "Change language to German"}
-{"pred": "Change language to Korean", "ref": "Change language to Korean"}
-{"pred": "Change language to English", "ref": "Change language to English"}
-{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
-{"pred": "Change language to German", "ref": "Change language to German"}
-{"pred": "Change language to Korean", "ref": "Change language to Korean"}
-{"pred": "Change language to English", "ref": "Change language to English"}
-{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
-{"pred": "Change language to German", "ref": "Change language to German"}
-{"pred": "Change language to Korean", "ref": "Change language to Korean"}
-{"pred": "Change language to English", "ref": "Change language to English"}
-{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
-{"pred": "Activate the lights", "ref": "Activate the lights"}
-{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
-{"pred": "Change language", "ref": "Change language"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Activate the lights", "ref": "Activate the lights"}
-{"pred": "Activate the lights", "ref": "Activate the lights"}
-{"pred": "Activate the lights", "ref": "Activate the lights"}
-{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
-{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
-{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Increase the volume", "ref": "Increase the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Decrease the volume", "ref": "Decrease the volume"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Increase the heat", "ref": "Increase the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Decrease the heat", "ref": "Decrease the heat"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Activate the music", "ref": "Activate the music"}
-{"pred": "Activate the lamp", "ref": "Activate the lamp"}
-{"pred": "Activate the lamp", "ref": "Activate the lamp"}
-{"pred": "Activate the lamp", "ref": "Activate the lamp"}
-{"pred": "Activate the lamp", "ref": "Activate the lamp"}
-{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
-{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
-{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
-{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
-{"pred": "Activate the lights", "ref": "Activate the lights"}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
-{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
-{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
@@ -2547,6 +2302,7 @@
 {"pred": "Increase the volume", "ref": "Increase the volume"}
 {"pred": "Increase the volume", "ref": "Increase the volume"}
 {"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
 {"pred": "Decrease the volume", "ref": "Decrease the volume"}
 {"pred": "Decrease the volume", "ref": "Decrease the volume"}
 {"pred": "Decrease the volume", "ref": "Decrease the volume"}
@@ -2572,6 +2328,7 @@
 {"pred": "Increase the heat", "ref": "Increase the heat"}
 {"pred": "Increase the heat", "ref": "Increase the heat"}
 {"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
 {"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
 {"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
 {"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
@@ -2605,6 +2362,7 @@
 {"pred": "Decrease the heat", "ref": "Decrease the heat"}
 {"pred": "Decrease the heat", "ref": "Decrease the heat"}
 {"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
 {"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
 {"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
 {"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
@@ -2612,7 +2370,6 @@
 {"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
 {"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
 {"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
-{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
 {"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
 {"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
 {"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
@@ -2689,7 +2446,6 @@
 {"pred": "Change language to Korean", "ref": "Change language to Korean"}
 {"pred": "Change language to English", "ref": "Change language to English"}
 {"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
-{"pred": "Deactivate the music", "ref": "Deactivate the music"}
 {"pred": "Activate the lights", "ref": "Activate the lights"}
 {"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
 {"pred": "Change language", "ref": "Change language"}
@@ -2755,6 +2511,250 @@
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
+{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the bedroom", "ref": "Deactivate the lights in the bedroom"}
+{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
+{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
+{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
+{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
+{"pred": "Increase the heat in the kitchen", "ref": "Increase the heat in the kitchen"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the bedroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the kitchen", "ref": "Decrease the heat in the kitchen"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Decrease the heat in the bedroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Decrease the heat in the washroom", "ref": "Decrease the heat in the washroom"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
+{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
+{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
+{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
+{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
+{"pred": "Bring the newspaper", "ref": "Bring the newspaper"}
+{"pred": "Bring the juice", "ref": "Bring the juice"}
+{"pred": "Bring the juice", "ref": "Bring the juice"}
+{"pred": "Bring the juice", "ref": "Bring the juice"}
+{"pred": "Bring the juice", "ref": "Bring the juice"}
+{"pred": "Bring the juice", "ref": "Bring the juice"}
+{"pred": "Bring the socks", "ref": "Bring the socks"}
+{"pred": "Bring the socks", "ref": "Bring the socks"}
+{"pred": "Bring the socks", "ref": "Bring the socks"}
+{"pred": "Bring the socks", "ref": "Bring the socks"}
+{"pred": "Bring the socks", "ref": "Bring the socks"}
+{"pred": "Bring the socks", "ref": "Bring the socks"}
+{"pred": "Bring the shoes", "ref": "Bring the shoes"}
+{"pred": "Bring the shoes", "ref": "Bring the shoes"}
+{"pred": "Bring the shoes", "ref": "Bring the shoes"}
+{"pred": "Bring the shoes", "ref": "Bring the shoes"}
+{"pred": "Bring the shoes", "ref": "Bring the shoes"}
+{"pred": "Bring the shoes", "ref": "Bring the shoes"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
+{"pred": "Change language to German", "ref": "Change language to German"}
+{"pred": "Change language to Korean", "ref": "Change language to Korean"}
+{"pred": "Change language to English", "ref": "Change language to English"}
+{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
+{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
+{"pred": "Change language to German", "ref": "Change language to German"}
+{"pred": "Change language to Korean", "ref": "Change language to Korean"}
+{"pred": "Change language to English", "ref": "Change language to English"}
+{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
+{"pred": "Change language to German", "ref": "Change language to German"}
+{"pred": "Change language to Korean", "ref": "Change language to Korean"}
+{"pred": "Change language to English", "ref": "Change language to English"}
+{"pred": "Change language to Chinese", "ref": "Change language to Chinese"}
+{"pred": "Change language to German", "ref": "Change language to German"}
+{"pred": "Change language to Korean", "ref": "Change language to Korean"}
+{"pred": "Change language to English", "ref": "Change language to English"}
+{"pred": "Deactivate the lights in the washroom", "ref": "Deactivate the lights in the washroom"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Activate the lights", "ref": "Activate the lights"}
+{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
+{"pred": "Change language", "ref": "Change language"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Activate the lights", "ref": "Activate the lights"}
+{"pred": "Activate the lights", "ref": "Activate the lights"}
+{"pred": "Activate the lights", "ref": "Activate the lights"}
+{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
+{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
+{"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Increase the volume", "ref": "Increase the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Decrease the volume", "ref": "Decrease the volume"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Increase the heat", "ref": "Increase the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Decrease the heat", "ref": "Decrease the heat"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Deactivate the music", "ref": "Deactivate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Activate the music", "ref": "Activate the music"}
+{"pred": "Activate the lamp", "ref": "Activate the lamp"}
+{"pred": "Activate the lamp", "ref": "Activate the lamp"}
+{"pred": "Activate the lamp", "ref": "Activate the lamp"}
+{"pred": "Activate the lamp", "ref": "Activate the lamp"}
+{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
+{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
+{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
+{"pred": "Deactivate the lamp", "ref": "Deactivate the lamp"}
+{"pred": "Activate the lights", "ref": "Activate the lights"}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the kitchen.", "ref": "Activate the lights in the kitchen."}
+{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
+{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
+{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
+{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
+{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
+{"pred": "Activate the lights in the bedroom.", "ref": "Activate the lights in the bedroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
+{"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Activate the lights in the washroom.", "ref": "Activate the lights in the washroom."}
 {"pred": "Deactivate the lights", "ref": "Deactivate the lights"}
 {"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights in the kitchen"}
@@ -2940,7 +2940,7 @@
 {"pred": "Activate the music", "ref": "Activate the music"}
 {"pred": "Activate the lights", "ref": "Activate the lights"}
 {"pred": "Activate the lights", "ref": "Activate the lights"}
-{"pred": "Deactivate the lights in each room", "ref": "Deactivate the lights"}
+{"pred": "Deactivate the lights in the kitchen", "ref": "Deactivate the lights"}
 {"pred": "Increase the volume", "ref": "Increase the volume"}
 {"pred": "Decrease the volume", "ref": "Decrease the volume"}
 {"pred": "Decrease the heat", "ref": "Decrease the heat"}
@@ -3004,7 +3004,7 @@
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the washroom", "ref": "Increase the heat in the washroom"}
-{"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the washroom"}
+{"pred": "Decrease the heat in the bedroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Increase the heat in the bedroom", "ref": "Increase the heat in the washroom"}
 {"pred": "Decrease the heat", "ref": "Decrease the heat"}

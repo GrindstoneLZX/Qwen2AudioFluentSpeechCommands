@@ -102,7 +102,7 @@ def main():
     model_name = "Qwen/Qwen2-Audio-7B-Instruct"
     val_path = "/home/lzx/Data/fluent_speech_commands_dataset/processed/valid.jsonl"
     test_path = "/home/lzx/Data/fluent_speech_commands_dataset/processed/test.jsonl"
-    model_dir = "lora_model/checkpoint-1200"
+    model_dir = "lora_best_model/checkpoint-1200"
 
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,                 

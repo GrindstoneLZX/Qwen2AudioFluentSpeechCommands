@@ -74,7 +74,7 @@ def evaluate(model, processor, dataset, system_prompt=None, batch_size=8, out_di
         batch = dataset[i : i + batch_size]
         audio_paths = batch["audio"]
         ref_texts = [text.strip() for text in batch["text"]]
-
+        
         try:
             pred_texts = generate(model, processor, audio_paths, system_prompt=system_prompt)
         except Exception as e:
@@ -84,6 +84,7 @@ def evaluate(model, processor, dataset, system_prompt=None, batch_size=8, out_di
         predictions.extend(pred_texts)
         references.extend(ref_texts)
 
+    audio_names = ['/'.join(path.split('/')[-2:]) for path in dataset["audio"]]
     keyword_accuracy.update(predictions, references)
     kw_acc = keyword_accuracy.compute()
     exact_match = sum(p.lower() == r.lower() for p, r in zip(predictions, references))
@@ -99,8 +100,8 @@ def evaluate(model, processor, dataset, system_prompt=None, batch_size=8, out_di
     os.makedirs(out_dir, exist_ok=True)
     out_file = os.path.join(out_dir, f"{split_name}_results.jsonl")
     with open(out_file, "w", encoding="utf-8") as f:
-        for p, r in zip(predictions, references):
-            f.write(json.dumps({"pred": p, "ref": r}, ensure_ascii=False) + "\n")
+        for n, p, r in zip(audio_names, predictions, references):
+            f.write(json.dumps({"audio": n, "pred": p, "ref": r}, ensure_ascii=False) + "\n")
     print(f"Save output to {out_file}")
 
     out_metric_file = os.path.join(out_dir, f"{split_name}_metrics.txt")

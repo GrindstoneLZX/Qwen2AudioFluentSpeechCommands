@@ -1,4 +1,4 @@
 Number of samples: 3118
-Accuracy: 0.9849
-WER: 0.0062
-Keyword Accuracy: 0.9878
+Accuracy: 0.9846
+WER: 0.0068
+Keyword Accuracy: 0.9875
